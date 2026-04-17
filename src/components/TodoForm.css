@@ -1,0 +1,24 @@
+.todo-form {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.todo-input {
+  flex-grow: 1;
+  padding: 12px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 1em;
+  outline: none;
+}
+
+.todo-input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.todo-form .add-btn {
+  padding: 12px 20px;
+  font-size: 1em;
+}
