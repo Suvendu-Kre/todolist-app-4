@@ -1,0 +1,34 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.todo-item.completed {
+  background-color: #e0ffe0;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.todo-text {
+  flex-grow: 1;
+  text-align: left;
+  font-size: 1.1em;
+  color: #343a40;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 8px;
+}
